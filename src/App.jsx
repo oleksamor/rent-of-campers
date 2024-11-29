@@ -4,7 +4,7 @@ import Catalog from "./components/Catalog";
 import NotFound from "./pages/NotFound/NotFound";
 import SeparateCamper from "./components/SeparateCamper/SeparateCamper";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -17,6 +17,6 @@ function App() {
       </Routes>
     </>
   );
-}
+};
 
 export default App;
